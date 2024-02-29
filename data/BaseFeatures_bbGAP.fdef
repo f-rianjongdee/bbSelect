@@ -8,9 +8,10 @@ AtomType NDonor [N&!H0&v3,N&!H0&+1&v4,n&H1&+0]
 AtomType AmideN [$(N-C(=O))]
 AtomType SulfonamideN [$([N;H0]S(=O)(=O))]
 
+##################################################################
 # FR - Removing this, as the protonation state is not certain
 #AtomType NDonor [$([Nv3](-C)(-C)-C)]
-
+##################################################################
 AtomType NDonor [$(n[n;H1]),$(nc[n;H1])]
 
 AtomType ChalcDonor [O,S;H1;+0]
@@ -38,9 +39,10 @@ AtomType Hydroxyl [O;H1;v2]
 # F is an acceptor so long as the C has no other halogen neighbors. This is maybe
 # a bit too general, but the idea is to eliminate things like CF3
 
-#################################################################################################
-# FR - removing this, modification can be introduced another time.
+##################################################################
+# FR - removing this, as these are atypical
 #AtomType HalogenAcceptor [F;$(F-[#6]);!$(FC[F,Cl,Br,I])]
+##################################################################
 
 #DefineFeature SingleAtomAcceptor [{Hydroxyl},{ChalcAcceptor},{NAcceptor},{HalogenAcceptor}]
 DefineFeature SingleAtomAcceptor [{Hydroxyl},{ChalcAcceptor},{NAcceptor}]
