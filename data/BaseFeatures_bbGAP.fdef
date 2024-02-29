@@ -2,7 +2,7 @@
 #
 # RDKit base fdef file.
 # Created by Greg Landrum
-# Edited by Francesco Rianjongdee (FR) for bbGAP
+# Edited by Francesco Rianjongdee (FR) for bbSelect
 
 AtomType NDonor [N&!H0&v3,N&!H0&+1&v4,n&H1&+0]
 AtomType AmideN [$(N-C(=O))]
