@@ -1,0 +1,8 @@
+*********** Progress Update ***********
+Number of Molecules Processed = 28103
+Number of Molecules Failed = 1001
+Average time/molecule = 0.002639
+Average Number of Rotors = 2.163715
+Average Number of Conformers = 20.780090
+Elapsed Time = 74.159996
+***************************************
