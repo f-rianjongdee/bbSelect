@@ -99,7 +99,7 @@ The functions of bbSelect are wrapped into the Picker() class.\
 
 
 ## Acknowledgements
-Special thank you to Stephen Pickett, Peter Pogany, and Darren Green for their support during the development of this code\
+Special thank you to Stephen Pickett, Peter Pogany, David Palmer, Nick Tomkinson, and Darren Green for their support during the development of this code\
 Marcus Farmer for the code used to create the MPOs\
 [JustGlowing minisom](https://github.com/JustGlowing/minisom/) open-source SOM package used and included in this code
 
